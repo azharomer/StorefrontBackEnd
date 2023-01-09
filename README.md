@@ -59,18 +59,6 @@ npm run migration:reset
 - create database for test mode (store_db_test) using Postgres
 
 ## Environmental file
-- create .env file  in app root and copy data below   and update '###' with your environment data.
-```
-PORT = 3000
-ENV = dev
-POSTGRES_HOST = localhost
-POSTGRES_PORT = 5432
-POSTGRES_DB = 'store_db_dev'
-POSTGRES_DB_TEST = 'store_db_test'
-POSTGRES_USER = '###'
-POSTGRES_PASSWORD = '###'
-SALT_ROUNDS = 10
-BCRYPT_PASSWORD = '###'
-TOKEN_SECRIT = '###'
-```
+- create .env file  in app root and copy data from .env.example file to .env file and update '###' with your environment data.
+
 
