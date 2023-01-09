@@ -4,7 +4,7 @@ project use node js and express to create store api.
 
 ## EndPonints in app
 
-all endpoints and schema described in  `REQUIREMENTS.md` file, 
+all endpoints and schema described in   [REQUIREMENT.md](REQUIREMENTS.md) file, 
 
 ## scripts in app
 Run prettier
